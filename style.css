@@ -1,0 +1,57 @@
+body,
+ul,
+ol,
+h1,
+h2 {}
+
+body {
+    background-color: burlywood;
+    text-align: left;
+}
+
+.general {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav {}
+
+.ingredients {
+    text-shadow: white;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 2px solid black;
+}
+
+.preparation {
+    text-shadow: white;
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.bold-numbers {
+    list-style-type: decimal;
+}
+
+.bold-numbers li::marker {
+    font-weight: bold;
+}
+
+h2 {}
+
+ul,
+ol {}
+
+.bonapp {
+    text-align: center;
+    margin-top: 50px;
+}
